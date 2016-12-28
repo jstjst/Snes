@@ -4,8 +4,6 @@
 #define strobe 3
 #define data 4
 
-word state;
-
 Snes controller(clock, strobe, data);
 
 void setup()
