@@ -16,19 +16,19 @@ void loop()
 {
   word state = controller.read();
 
-  if (bitRead(state, 5) == true)
+  if (bitRead(state, UP) == true)
   {
     Serial.println("UP");
   }
-  else if (bitRead(state, 6) == true)
+  else if (bitRead(state, DOWN) == true)
   {
     Serial.println("DOWN");
   }
-  else if (bitRead(state, 7) == true)
+  else if (bitRead(state, LEFT) == true)
   {
     Serial.println("LEFT");
   }
-  else if (bitRead(state, 8) == true)
+  else if (bitRead(state, RIGHT) == true)
   {
     Serial.println("RIGHT");
   }
