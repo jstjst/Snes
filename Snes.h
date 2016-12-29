@@ -9,22 +9,22 @@ class Snes
     Snes(int clock, int strobe, int data);
     word read();
 
-	#define UP 5
-	#define DOWN 6
-	#define LEFT 7
-	#define RIGHT 8
+	#define UP 4
+	#define DOWN 5
+	#define LEFT 6
+	#define RIGHT 7
 
-	#define A 9
-	#define B 1
+	#define A 8
+	#define B 0
 
-	#define X 10
-	#define Y 2
+	#define X 9
+	#define Y 1
 
-	#define L 11
-	#define R 12
+	#define L 10
+	#define R 11
 
-	#define SELECT 3
-	#define START 4
+	#define SELECT 2
+	#define START 3
   private:
     int _clock;
     int _strobe;
